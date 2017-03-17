@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GloryOfAStudent</string>
+    <string name="appName">学霸荣耀</string>
+    <string name="账号">     账号</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+</resources>

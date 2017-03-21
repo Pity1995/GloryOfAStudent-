@@ -40,26 +40,31 @@
         android:textColor="#ffffff"
         android:background="#2d3e50"
         android:id="@+id/welcomeEditTextPassword"/>
-    <Button
-        android:layout_width="120dp"
+    <RelativeLayout
+        android:layout_width="260dp"
         android:layout_height="50dp"
-        android:text="注册"
-        android:textSize="20sp"
-        android:layout_marginTop="320dp"
-        android:layout_marginLeft="51dp"
-        android:background="#297eb8"
-        android:textColor="#ffffff"
-        android:id="@+id/welcomeButtonRegister"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="注册"
+            android:textSize="20sp"
+            android:background="#297eb8"
+            android:textColor="#ffffff"
+            android:id="@+id/welcomeButtonRegister"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="登录"
+            android:textSize="20sp"
+            android:background="#46b39e"
+            android:textColor="#ffffff"
+            android:id="@+id/welcomeButtonLogin"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
 
-    <Button
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:text="登录"
-        android:textSize="20sp"
-        android:layout_marginTop="320dp"
-        android:layout_marginLeft="190dp"
-        android:background="#46b39e"
-        android:textColor="#ffffff"
-        android:id="@+id/welcomeButtonLogin"/>
 
 </RelativeLayout>

@@ -18,3 +18,4 @@ public class MainActivity extends Activity {
         Bmob.initialize(this,"f0061d0e83a7cd00aa0092fb081b72ae");
     }
 }
+                                                                                                                                                     
